@@ -46,7 +46,7 @@ class WordPressTwentyFifteenFlexbox {
 			\wp_enqueue_style('wp-twentyfifteen-flexbox', \plugins_url(\basename(\dirname(__FILE__)) . '/css/wp-twentyfifteen-flexbox.css'), array('twentyfifteen-style'), false, 'all');
 		} else {
 			// load the minifies version
-			\wp_enqueue_style('wp-twentyfifteen-flexbox', \plugins_url(\basename(\dirname(__FILE__)) . '/css/wp-twentyfifteen-flexbox.min.css'), array('twentyfifteen-style-'), false, 'all');
+			\wp_enqueue_style('wp-twentyfifteen-flexbox', \plugins_url(\basename(\dirname(__FILE__)) . '/css/wp-twentyfifteen-flexbox.min.css'), array('twentyfifteen-style'), false, 'all');
 		}
 	} // END public function enqueueStyles()
 } // END class WordPressTwentyFifteenFlexbox
